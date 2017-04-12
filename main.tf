@@ -61,7 +61,7 @@ resource "aws_instance" "web" {
     "Identity"     = "autodesk-moth"
     "Initial_Name" = "zach-the-moth"
     "Name"         = "web ${count.index+1} / ${var.max_instances}"
-    "Purpose"      = "learning"
+    "Purpose"      = "learning" lol
   }
 }
 
