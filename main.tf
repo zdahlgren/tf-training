@@ -52,7 +52,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   count                  = "${var.max_instances}"
-  ami                    = "ami-eea9f38e"
+  ami                    = "ami-doooooooooooooooooooom"
   instance_type          = "t2.micro"
   subnet_id              = "subnet-b30f9ceb"
   vpc_security_group_ids = ["sg-834d35e4"]
